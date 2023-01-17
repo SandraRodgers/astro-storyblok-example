@@ -5,7 +5,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 const sbApi = useStoryblokApi();
 const { data } = await sbApi.get("cdn/stories/home", {
-  version: "draft",
+  // version: "draft",
 });
 
 const story = data.story;
