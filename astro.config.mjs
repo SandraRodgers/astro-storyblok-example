@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [
     storyblok({
-      accessToken: "ytuKLTAOiWgbab2oUemgGQtt",
+      accessToken: "LSTMzttTLabrQLn9YBzQowtt",
       bridge: true,
       apiOptions: {
         region: "us",
